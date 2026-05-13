@@ -49,3 +49,7 @@ ctest --test-dir build
 ### unit test VS golden-master test 비교
 
 ### To-Do list
+- CMake 사용을 위한 폴더 정리
+ -. CPP 폴더 내 Include, src, test, CMakeLists.txt 파일 등을 GildedRose_08 프로젝트의 Root Directory 로 이동
+- CMake 의 Configure 실행
+ 
