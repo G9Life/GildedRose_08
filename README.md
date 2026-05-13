@@ -65,3 +65,5 @@ ctest --test-dir build
      vscode 에서 원격지에 코드 제출하면 왜 Pull Request 가 안되고 Code 머지가 바로 되지?
   -. GildedRoseTest.cpp 에서 Test 실행 시 실패
      EXPECT_EQ("fixme", app.items[0].name); -> EXPECT_EQ("foo", app.items[0].name); 수정
+ - 5번째 커밋    
+  -. 전체 Test Case 추가

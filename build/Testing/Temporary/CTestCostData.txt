@@ -1,2 +1,11 @@
 GildedRoseTest.Foo 2 2.06336
+GildedRoseTest.NormalItemWithZeroQuality 1 0.501751
+GildedRoseTest.ExpiredNormalItemDegradesTwiceAsFast 1 0.68259
+GildedRoseTest.LegendaryItemDoesNotChange 1 0.629175
+GildedRoseTest.LegendaryItemDoesNotChangeAfterSellDate 1 0.524891
+GildedRoseTest.ExpiredAgedBrieIncreasesByTwo 0 0
+GildedRoseTest.QualityNeverExceedsFifty 0 0
+GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 0 0
+GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 0 0
 ---
+GildedRoseTest.ExpiredAgedBrieIncreasesByTwo

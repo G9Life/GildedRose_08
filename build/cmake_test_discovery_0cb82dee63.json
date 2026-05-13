@@ -1,15 +1,60 @@
 {
-  "tests": 1,
+  "tests": 10,
   "name": "AllTests",
   "testsuites": [
     {
       "name": "GildedRoseTest",
-      "tests": 1,
+      "tests": 10,
       "testsuite": [
         {
           "name": "Foo",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
-          "line": 5
+          "line": 4
+        },
+        {
+          "name": "NormalItemWithZeroQuality",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 12
+        },
+        {
+          "name": "ExpiredNormalItemDegradesTwiceAsFast",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 23
+        },
+        {
+          "name": "LegendaryItemDoesNotChange",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 34
+        },
+        {
+          "name": "LegendaryItemDoesNotChangeAfterSellDate",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 45
+        },
+        {
+          "name": "ExpiredAgedBrieIncreasesByTwo",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 56
+        },
+        {
+          "name": "QualityNeverExceedsFifty",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 68
+        },
+        {
+          "name": "BackstagePassIncreasesByOneAboveTenDays",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 79
+        },
+        {
+          "name": "BackstagePassDropsToZeroAfterConcert",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 90
+        },
+        {
+          "name": "BackstagePassDropsToZeroAfterConcertFromAboveFifty",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 101
         }
       ]
     }
