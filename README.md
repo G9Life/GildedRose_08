@@ -48,8 +48,14 @@ ctest --test-dir build
 
 ### unit test VS golden-master test 비교
 
-### To-Do list
-- CMake 사용을 위한 폴더 정리
+### To-Do list (첫번째 커밋)
+
+- 2번째 커밋
+ -. CMake 사용을 위한 폴더 정리
  -. CPP 폴더 내 Include, src, test, CMakeLists.txt 파일 등을 GildedRose_08 프로젝트의 Root Directory 로 이동
-- CMake 의 Configure 실행
+ -. CMake 의 Configure 실행
+
+- 3번째 커밋
+ -. CMake 에서 빌드해보기, 결과는 성공
+  : CMakeList 에서 GoogleTest 수정작업 없었지만 Build 됨...이유는?
  
