@@ -54,6 +54,40 @@ TEST(GildedRoseTest, LegendaryItemDoesNotChangeAfterSellDate) {
 }
 
 TEST(GildedRoseTest, ExpiredAgedBrieIncreasesByTwo) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 0)};
+
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ("Aged Brie", app.items[0].name);
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(2, app.items[0].quality);
+}
+
+TEST(GildedRoseTest, QualityNeverExceedsFifty) {
+  std::vector<Item> items = {Item("Aged Brie", 0, 50)};
+
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ("Aged Brie", app.items[0].name);
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(50, app.items[0].quality);
+}
+
+TEST(GildedRoseTest, BackstagePassIncreasesByOneAboveTenDays) {
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 15, 0)};
+
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
+  EXPECT_EQ(14, app.items[0].sellIn);
+  EXPECT_EQ(1, app.items[0].quality);
+}
+
+TEST(GildedRoseTest, BackstagePassDropsToZeroAfterConcert) {
   std::vector<Item> items = {
       Item("Backstage passes to a TAFKAL80ETC concert", 0, 0)};
 
@@ -62,49 +96,17 @@ TEST(GildedRoseTest, ExpiredAgedBrieIncreasesByTwo) {
 
   EXPECT_EQ("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
   EXPECT_EQ(-1, app.items[0].sellIn);
-  EXPECT_EQ(2, app.items[0].quality);
-}
-
-TEST(GildedRoseTest, QualityNeverExceedsFifty) {
-  std::vector<Item> items = {Item("AgedBrie", 0, 50)};
-
-  GildedRose app(items);
-  app.updateQuality();
-
-  EXPECT_EQ("AgedBrie", app.items[0].name);
-  EXPECT_EQ(-1, app.items[0].sellIn);
-  EXPECT_EQ(50, app.items[0].quality);
-}
-
-TEST(GildedRoseTest, BackstagePassIncreasesByOneAboveTenDays) {
-  std::vector<Item> items = {Item("Backstage", 15, 0)};
-
-  GildedRose app(items);
-  app.updateQuality();
-
-  EXPECT_EQ("Backstage", app.items[0].name);
-  EXPECT_EQ(14, app.items[0].sellIn);
-  EXPECT_EQ(1, app.items[0].quality);
-}
-
-TEST(GildedRoseTest, BackstagePassDropsToZeroAfterConcert) {
-  std::vector<Item> items = {Item("Backstage", 0, 0)};
-
-  GildedRose app(items);
-  app.updateQuality();
-
-  EXPECT_EQ("Backstage", app.items[0].name);
-  EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(0, app.items[0].quality);
 }
 
 TEST(GildedRoseTest, BackstagePassDropsToZeroAfterConcertFromAboveFifty) {
-  std::vector<Item> items = {Item("Backstage", 0, 51)};
+  std::vector<Item> items = {
+      Item("Backstage passes to a TAFKAL80ETC concert", 0, 51)};
 
   GildedRose app(items);
   app.updateQuality();
 
-  EXPECT_EQ("Backstage", app.items[0].name);
+  EXPECT_EQ("Backstage passes to a TAFKAL80ETC concert", app.items[0].name);
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(0, app.items[0].quality);
 }

@@ -39,12 +39,12 @@
         {
           "name": "QualityNeverExceedsFifty",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
-          "line": 68
+          "line": 67
         },
         {
           "name": "BackstagePassIncreasesByOneAboveTenDays",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
-          "line": 79
+          "line": 78
         },
         {
           "name": "BackstagePassDropsToZeroAfterConcert",
@@ -54,7 +54,7 @@
         {
           "name": "BackstagePassDropsToZeroAfterConcertFromAboveFifty",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
-          "line": 101
+          "line": 102
         }
       ]
     }

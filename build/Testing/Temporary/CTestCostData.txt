@@ -3,9 +3,9 @@ GildedRoseTest.NormalItemWithZeroQuality 1 0.501751
 GildedRoseTest.ExpiredNormalItemDegradesTwiceAsFast 1 0.68259
 GildedRoseTest.LegendaryItemDoesNotChange 1 0.629175
 GildedRoseTest.LegendaryItemDoesNotChangeAfterSellDate 1 0.524891
-GildedRoseTest.ExpiredAgedBrieIncreasesByTwo 0 0
-GildedRoseTest.QualityNeverExceedsFifty 0 0
-GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 0 0
-GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 0 0
+GildedRoseTest.ExpiredAgedBrieIncreasesByTwo 1 0.520463
+GildedRoseTest.QualityNeverExceedsFifty 1 0.520851
+GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 1 0.628613
+GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 1 0.690559
+GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.509376
 ---
-GildedRoseTest.ExpiredAgedBrieIncreasesByTwo

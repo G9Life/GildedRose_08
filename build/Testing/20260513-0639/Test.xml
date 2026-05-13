@@ -25,26 +25,20 @@
 	ProcessorClockFrequency="2100.000000"
 	>
 	<Testing>
-		<StartDateTime>May 13 16:48 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778658489</StartTestTime>
+		<StartDateTime>May 13 17:00 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778659256</StartTestTime>
 		<TestList>
-			<Test>./GildedRoseTest.ExpiredAgedBrieIncreasesByTwo</Test>
+			<Test>./GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty</Test>
 		</TestList>
-		<Test Status="failed">
-			<Name>GildedRoseTest.ExpiredAgedBrieIncreasesByTwo</Name>
+		<Test Status="passed">
+			<Name>GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty</Name>
 			<Path>.</Path>
-			<FullName>./GildedRoseTest.ExpiredAgedBrieIncreasesByTwo</FullName>
-			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778658489.833501</StartTestTime>
+			<FullName>./GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778659256.348696</StartTestTime>
 			<Results>
-				<NamedMeasurement type="text/string" name="Exit Code">
-					<Value>Failed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Exit Value">
-					<Value>1</Value>
-				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.533599</Value>
+					<Value>0.690559</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -53,18 +47,18 @@
 					<Value>Completed</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" "--gtest_also_run_disabled_tests"</Value>
+					<Value>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" "--gtest_also_run_disabled_tests"</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="text/string" name="Environment">
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJydUV1rwjAUfc+vuI8Ks3SDjVHYg84qwpCh3fbQFonttQbSpEtSnf9+6QfOyga6C4Hc5OTknHMXpRBMZJBTJnp92CiZw7MXjf33aMp4iulCaly5j9G6tG20SrHQUSZlxtGgNgOtkpM2qttqt6oInSQhc2nQg2kNgcDewIZxgwqe4OeD6tzxvwqmMB1mmI4Uw5lIFFKNenQI9pKET8eKYdGqvgVTM1aq270umUGHhINjxTDlck15c49ix5QUOQqLRTMoizPwKWdXIQlh8TaHuuLr1P8aaZ3YGU1SFN7DvQcTynipkFhaTAymgJ8l5cwcQG7AbFEj7CgvUXsE4M4uWhSOdZ7r0I2dFksqpR9blmyBaQ9cYh3AZDh78cfXOoCeC7nuXxpVAwcjDeV9ctk0DFI1SOVedGf914xBUeF0/7HuXofLZePOrbHa6XpuGG6AM12lukYu997/YyHEMrZPA38ZkG8YyhcL====</Value>
+					<Value encoding="base64" compression="gzip">eJytUU1rg0AQvfsr5hgPSnorgRxsTDwU0mDSHqoiq46yVHdkd0zpv68fIU0ChRwyp/l4vDdvJuyUkqqCRkg1s6HU1MBqEfvrjziQdYFFSAbT+XOcdX0ZpwW2Jq6IqhoZDTtG5xdlPJZDlg6Ebp5bW2JcQDBC4NBPoJQ1o4Yl/AkMffdF5F+GRYU7YYyvqTUH+kRNXtnDV6Ry1Lzp9/MyOuJGlvxjRctzJBCerDwBjzKDlVNuOsnoWpFzjgSCmjJRT3NUR6lJNah6LLLTtTfgS87rta0IwvctjJE8wtJEBW+vj6CD2RwaY99rZoIDE4vatu67F6PQTkHf6vob/30BtFDutU5veeft92t/uOCEda1fWe3gCg==</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 13 16:48 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778658490</EndTestTime>
+		<EndDateTime>May 13 17:00 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778659257</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

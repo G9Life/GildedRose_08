@@ -1,40 +1,30 @@
-Start testing: May 13 16:48 대한민국 표준시
+Start testing: May 13 17:00 대한민국 표준시
 ----------------------------------------------------------
-6/10 Testing: GildedRoseTest.ExpiredAgedBrieIncreasesByTwo
-6/10 Test: GildedRoseTest.ExpiredAgedBrieIncreasesByTwo
-Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" "--gtest_also_run_disabled_tests"
+10/10 Testing: GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty
+10/10 Test: GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty
+Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" start time: May 13 16:48 대한민국 표준시
+"GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" start time: May 13 17:00 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
-Note: Google Test filter = GildedRoseTest.ExpiredAgedBrieIncreasesByTwo
+Note: Google Test filter = GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from GildedRoseTest
-[ RUN      ] GildedRoseTest.ExpiredAgedBrieIncreasesByTwo
-C:\DEV\GildedRose_08\test\GildedRoseTest.cpp:65: Failure
-Expected equality of these values:
-  2
-  app.items[0].quality
-    Which is: 0
-
-[  FAILED  ] GildedRoseTest.ExpiredAgedBrieIncreasesByTwo (0 ms)
+[ RUN      ] GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty
+[       OK ] GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty (0 ms)
 [----------] 1 test from GildedRoseTest (0 ms total)
 
 [----------] Global test environment tear-down
 [==========] 1 test from 1 test suite ran. (0 ms total)
-[  PASSED  ] 0 tests.
-[  FAILED  ] 1 test, listed below:
-[  FAILED  ] GildedRoseTest.ExpiredAgedBrieIncreasesByTwo
-
- 1 FAILED TEST
+[  PASSED  ] 1 test.
 <end of output>
-Test time =   0.53 sec
+Test time =   0.69 sec
 ----------------------------------------------------------
-Test Failed.
-"GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" end time: May 13 16:48 대한민국 표준시
-"GildedRoseTest.ExpiredAgedBrieIncreasesByTwo" time elapsed: 00:00:00
+Test Passed.
+"GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" end time: May 13 17:00 대한민국 표준시
+"GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 13 16:48 대한민국 표준시
+End testing: May 13 17:00 대한민국 표준시
