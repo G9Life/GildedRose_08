@@ -67,3 +67,9 @@ ctest --test-dir build
      EXPECT_EQ("fixme", app.items[0].name); -> EXPECT_EQ("foo", app.items[0].name); 수정
  - 5번째 커밋    
   -. 전체 Test Case 추가
+
+ - 6번째 커밋
+  -. 교안의 전체 Test Case 완료 후 제출 
+
+ - 7번째 커밋
+  -. ApprovalTest 제출

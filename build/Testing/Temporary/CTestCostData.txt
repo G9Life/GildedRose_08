@@ -8,4 +8,5 @@ GildedRoseTest.QualityNeverExceedsFifty 1 0.520851
 GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 1 0.628613
 GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 1 0.690559
 GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.509376
+ApprovalTest.PrintTextFixture 1 0.482406
 ---
