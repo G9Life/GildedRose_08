@@ -59,3 +59,9 @@ ctest --test-dir build
  -. CMake 에서 빌드해보기, 결과는 성공
   : CMakeList 에서 GoogleTest 수정작업 없었지만 Build 됨...이유는?
  
+ - 4번째 커밋
+  -. 2번째 커밋할때 dev Branch 에 New Pull Request 버튼 활성화 안됨
+     강제로 New Pull Request 했더니 Main Branch 에 코드 머지 됨
+     vscode 에서 원격지에 코드 제출하면 왜 Pull Request 가 안되고 Code 머지가 바로 되지?
+  -. GildedRoseTest.cpp 에서 Test 실행 시 실패
+     EXPECT_EQ("fixme", app.items[0].name); -> EXPECT_EQ("foo", app.items[0].name); 수정

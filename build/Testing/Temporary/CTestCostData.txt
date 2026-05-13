@@ -1,0 +1,2 @@
+GildedRoseTest.Foo 2 2.06336
+---
