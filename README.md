@@ -73,3 +73,6 @@ ctest --test-dir build
 
  - 7번째 커밋
   -. ApprovalTest 제출
+
+  ////Refactoring Branch 작업내용
+  - Step 1 : 회귀 테스트 작성

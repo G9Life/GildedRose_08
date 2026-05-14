@@ -110,3 +110,25 @@ TEST(GildedRoseTest, BackstagePassDropsToZeroAfterConcertFromAboveFifty) {
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(0, app.items[0].quality);
 }
+
+// ①일반아이템—매일quality -1, sellIn -1
+TEST(GildedRoseTest, NormalItemDegrades) {
+  std::vector<Item> items = {Item("+5 Dexterity Vest", 10, 20)};
+
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(9, app.items[0].sellIn);
+  EXPECT_EQ(19, app.items[0].quality);
+}
+
+// ②sellIn 지나면quality 2배감소
+TEST(GildedRoseTest, NormalItemDegradesTwiceAfterSellIn) {
+  std::vector<Item> items = {Item("Normal", 0, 10)};
+
+  GildedRose app(items);
+  app.updateQuality();
+
+  EXPECT_EQ(-1, app.items[0].sellIn);
+  EXPECT_EQ(8, app.items[0].quality);
+}

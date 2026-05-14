@@ -1,12 +1,14 @@
-GildedRoseTest.Foo 2 2.06336
-GildedRoseTest.NormalItemWithZeroQuality 1 0.501751
-GildedRoseTest.ExpiredNormalItemDegradesTwiceAsFast 1 0.68259
-GildedRoseTest.LegendaryItemDoesNotChange 1 0.629175
-GildedRoseTest.LegendaryItemDoesNotChangeAfterSellDate 1 0.524891
-GildedRoseTest.ExpiredAgedBrieIncreasesByTwo 1 0.520463
-GildedRoseTest.QualityNeverExceedsFifty 1 0.520851
-GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 1 0.628613
-GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 1 0.690559
-GildedRoseTest.BackstagePassDropsToZeroAfterConcert 1 0.509376
-ApprovalTest.PrintTextFixture 1 0.482406
+GildedRoseTest.Foo 4 1.263
+GildedRoseTest.NormalItemWithZeroQuality 3 0.510367
+GildedRoseTest.ExpiredNormalItemDegradesTwiceAsFast 3 0.539808
+GildedRoseTest.LegendaryItemDoesNotChange 3 0.540138
+GildedRoseTest.LegendaryItemDoesNotChangeAfterSellDate 3 0.484744
+GildedRoseTest.ExpiredAgedBrieIncreasesByTwo 3 0.492368
+GildedRoseTest.QualityNeverExceedsFifty 3 0.524499
+GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 3 0.547256
+GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 3 0.568686
+GildedRoseTest.BackstagePassDropsToZeroAfterConcert 3 0.721663
+ApprovalTest.PrintTextFixture 3 2.50137
+GildedRoseTest.NormalItemDegrades 2 0.472848
+GildedRoseTest.NormalItemDegradesTwiceAfterSellIn 2 0.529653
 ---

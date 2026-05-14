@@ -25,11 +25,40 @@
 	ProcessorClockFrequency="2100.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778740128</StartTestTime>
-		<TestList/>
-		<EndDateTime>May 14 15:28 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778740129</EndTestTime>
+		<StartDateTime>May 14 15:58 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778741891</StartTestTime>
+		<TestList>
+			<Test>./GildedRoseTest.QualityNeverExceedsFifty</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>GildedRoseTest.QualityNeverExceedsFifty</Name>
+			<Path>.</Path>
+			<FullName>./GildedRoseTest.QualityNeverExceedsFifty</FullName>
+			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.QualityNeverExceedsFifty" "--gtest_also_run_disabled_tests"</FullCommandLine>
+			<StartTestTime>1778741891.893792</StartTestTime>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.468004</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.QualityNeverExceedsFifty" "--gtest_also_run_disabled_tests"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJyNUE1vgzAMvedX+FgOoO42VephWhmHSWyj2y4EoZQYFCkkVWK69d+Pj6orkybhk5/9bD+/rDNGmQZaocwqgNrZFh43fBd/8kRpiTKzHsv1PT90PeSlxKPnjbWNRkJPoXfVDeQjHLJyWBhVFUst4QaSkQLvfQdqpQkdbOH3wFCP3jqhFZ1TPKGLvytE6Z9UTWeWb69RQHYRfAc0LhsEX3LfKcKI5eE1Cki0PQg99dGclLOmRdNzkcLu+Id8u3MujuWQfaQwRrFc+DQAL8/Lh2C1htYHS4VNdCBLQgds2e+EwoXSfpm5s/85Ck6YaH6nf+z1Yb+Pd4MbEzdiP8S/wbA=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>May 14 15:58 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778741892</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

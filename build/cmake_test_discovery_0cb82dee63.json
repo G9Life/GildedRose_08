@@ -1,5 +1,5 @@
 {
-  "tests": 11,
+  "tests": 13,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "GildedRoseTest",
-      "tests": 10,
+      "tests": 12,
       "testsuite": [
         {
           "name": "Foo",
@@ -66,6 +66,16 @@
           "name": "BackstagePassDropsToZeroAfterConcertFromAboveFifty",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
           "line": 102
+        },
+        {
+          "name": "NormalItemDegrades",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 115
+        },
+        {
+          "name": "NormalItemDegradesTwiceAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 126
         }
       ]
     }
