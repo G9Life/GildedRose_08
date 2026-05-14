@@ -2,6 +2,11 @@
 #include "Item.h"
 #include <vector>
 
+#include "AgedBrieItem.h"
+#include "BackstagePassItem.h"
+#include "NormalItem.h"
+#include "SulfurasItem.h"
+
 class GildedRose {
 
 private:

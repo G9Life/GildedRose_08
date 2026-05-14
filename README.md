@@ -83,3 +83,5 @@ ctest --test-dir build
   - Step 3 : 조건분리(Condition Simplification)
 
   - Step 4 : 메서드추출(Extract Method)
+
+  - Step 5 : 클래스분리(Move Method + New Class)
