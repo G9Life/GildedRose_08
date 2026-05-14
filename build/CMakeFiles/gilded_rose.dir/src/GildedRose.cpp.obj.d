@@ -108,6 +108,7 @@ CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: \
  C:/DEV/GildedRose_08/include/AgedBrieItem.h \
  C:/DEV/GildedRose_08/include/GildedRoseItem.h \
  C:/DEV/GildedRose_08/include/BackstagePassItem.h \
+ C:/DEV/GildedRose_08/include/FoodBeverageItem.h \
  C:/DEV/GildedRose_08/include/NormalItem.h \
  C:/DEV/GildedRose_08/include/SulfurasItem.h \
  C:/mingw64/include/c++/15.2.0/memory \

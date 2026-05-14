@@ -20,7 +20,8 @@ target_include_directories(gilded_rose PUBLIC include)
 enable_testing()
 add_executable(gilded_rose_test 
                 test/GildedRoseTest.cpp
-                 test/ApprovalTest.cpp)
+                 test/ApprovalTest.cpp
+                 test/FoodBeverageTest.cpp)
                  
 target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
 

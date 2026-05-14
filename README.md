@@ -87,3 +87,5 @@ ctest --test-dir build
   - Step 5 : 클래스분리(Move Method + New Class)
 
   - Step 6 : 추상화 & 다형성(Abstract Base Class + Factory)
+
+  - Step 7 : 새기능추가: Food & Beverage (F & B) 아이템

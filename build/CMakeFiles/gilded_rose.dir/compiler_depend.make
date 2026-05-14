@@ -4,6 +4,7 @@
 CMakeFiles/gilded_rose.dir/src/GildedRose.cpp.obj: C:/DEV/GildedRose_08/src/GildedRose.cpp \
   C:/DEV/GildedRose_08/include/AgedBrieItem.h \
   C:/DEV/GildedRose_08/include/BackstagePassItem.h \
+  C:/DEV/GildedRose_08/include/FoodBeverageItem.h \
   C:/DEV/GildedRose_08/include/GildedRose.h \
   C:/DEV/GildedRose_08/include/GildedRoseItem.h \
   C:/DEV/GildedRose_08/include/Item.h \
@@ -240,6 +241,18 @@ C:/mingw64/include/c++/15.2.0/bits/localefwd.h:
 
 C:/mingw64/include/c++/15.2.0/bits/invoke.h:
 
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
+
+C:/mingw64/include/c++/15.2.0/bits/functexcept.h:
+
+C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
+
+C:/mingw64/include/c++/15.2.0/bits/utility.h:
+
+C:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h:
+
 C:/mingw64/include/c++/15.2.0/bits/range_access.h:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++config.h:
@@ -260,10 +273,6 @@ C:/mingw64/include/c++/15.2.0/bits/char_traits.h:
 
 C:/mingw64/include/c++/15.2.0/cctype:
 
-C:/mingw64/include/c++/15.2.0/bits/postypes.h:
-
-C:/mingw64/include/c++/15.2.0/exception:
-
 C:/mingw64/include/c++/15.2.0/bits/stl_construct.h:
 
 C:/DEV/GildedRose_08/include/SulfurasItem.h:
@@ -274,6 +283,16 @@ C:/mingw64/x86_64-w64-mingw32/include/errno.h:
 
 C:/mingw64/include/c++/15.2.0/bits/atomic_base.h:
 
+C:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
+
+C:/mingw64/include/c++/15.2.0/bits/ptr_traits.h:
+
+C:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
+
+C:/mingw64/include/c++/15.2.0/bits/postypes.h:
+
+C:/mingw64/include/c++/15.2.0/exception:
+
 C:/mingw64/include/c++/15.2.0/bits/allocator.h:
 
 C:/mingw64/include/c++/15.2.0/bits/memory_resource.h:
@@ -282,17 +301,17 @@ C:/mingw64/include/c++/15.2.0/bits/basic_string.h:
 
 C:/mingw64/include/c++/15.2.0/bits/unique_ptr.h:
 
-C:/DEV/GildedRose_08/include/GildedRoseItem.h:
-
-C:/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
-
-C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
-
 C:/mingw64/include/c++/15.2.0/bits/cxxabi_forced.h:
 
 C:/DEV/GildedRose_08/include/NormalItem.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_wconio.h:
+
+C:/DEV/GildedRose_08/include/GildedRoseItem.h:
+
+C:/mingw64/include/c++/15.2.0/bits/alloc_traits.h:
+
+C:/mingw64/include/c++/15.2.0/pstl/pstl_config.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
 
@@ -305,24 +324,6 @@ C:/mingw64/include/c++/15.2.0/bits/charconv.h:
 C:/mingw64/include/c++/15.2.0/bits/ostream_insert.h:
 
 C:/mingw64/include/c++/15.2.0/bits/atomic_lockfree_defines.h:
-
-C:/mingw64/include/c++/15.2.0/bits/functional_hash.h:
-
-C:/mingw64/include/c++/15.2.0/bits/ptr_traits.h:
-
-C:/mingw64/include/c++/15.2.0/bits/cxxabi_init_exception.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/sys/timeb.h:
-
-C:/mingw64/include/c++/15.2.0/bits/functexcept.h:
-
-C:/mingw64/x86_64-w64-mingw32/include/_mingw_off_t.h:
-
-C:/mingw64/include/c++/15.2.0/bits/utility.h:
-
-C:/mingw64/include/c++/15.2.0/pstl/glue_memory_defs.h:
 
 C:/mingw64/include/c++/15.2.0/backward/auto_ptr.h:
 
@@ -420,9 +421,9 @@ C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++allocator.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_mingw_stat64.h:
 
-C:/DEV/GildedRose_08/include/AgedBrieItem.h:
-
 C:/mingw64/include/c++/15.2.0/bits/nested_exception.h:
+
+C:/DEV/GildedRose_08/include/AgedBrieItem.h:
 
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/c++locale.h:
 
@@ -436,9 +437,9 @@ C:/mingw64/include/c++/15.2.0/bits/stl_vector.h:
 
 C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h:
 
-C:/mingw64/include/c++/15.2.0/bits/move.h:
-
 C:/mingw64/include/c++/15.2.0/x86_64-w64-mingw32/bits/cpu_defines.h:
+
+C:/mingw64/include/c++/15.2.0/bits/move.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
@@ -451,6 +452,8 @@ C:/mingw64/x86_64-w64-mingw32/include/corecrt.h:
 C:/mingw64/include/c++/15.2.0/bits/memoryfwd.h:
 
 C:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
+
+C:/DEV/GildedRose_08/include/FoodBeverageItem.h:
 
 C:/mingw64/include/c++/15.2.0/bits/basic_string.tcc:
 

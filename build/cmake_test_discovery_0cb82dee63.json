@@ -1,7 +1,28 @@
 {
-  "tests": 17,
+  "tests": 20,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "FoodBeverageTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceAsNormal",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 7
+        },
+        {
+          "name": "DegradesFourTimesAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "QualityNeverBelowZero",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 27
+        }
+      ]
+    },
     {
       "name": "ApprovalTest",
       "tests": 1,
