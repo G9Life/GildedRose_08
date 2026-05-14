@@ -132,3 +132,36 @@ TEST(GildedRoseTest, NormalItemDegradesTwiceAfterSellIn) {
   EXPECT_EQ(-1, app.items[0].sellIn);
   EXPECT_EQ(8, app.items[0].quality);
 }
+
+// ③quality는절대음수가되지않는다
+TEST(GildedRoseTest, QualityNeverNegative) {
+  std::vector<Item> items = {Item("Normal", 5, 0)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(0, items[0].quality); // 0 유지
+}
+
+// ④Aged Brie —오래될수록quality 증가
+TEST(GildedRoseTest, AgedBrieIncreasesQuality) {
+  std::vector<Item> items = {Item("Aged Brie", 5, 10)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(11, items[0].quality);
+}
+
+// ⑤quality는50을초과하지않는다
+TEST(GildedRoseTest, QualityNeverMoreThan50) {
+  std::vector<Item> items = {Item("Aged Brie", 5, 50)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(50, items[0].quality); // 50 유지
+}
+
+// ⑥Sulfuras —quality/sellIn 변화없음
+TEST(GildedRoseTest, SulfurasNeverChanges) {
+  std::vector<Item> items = {Item("Sulfuras, Hand of Ragnaros", 0, 80)};
+  GildedRose app(items);
+  app.updateQuality();
+  EXPECT_EQ(0, items[0].sellIn);
+  EXPECT_EQ(80, items[0].quality);
+}

@@ -1,5 +1,5 @@
 {
-  "tests": 13,
+  "tests": 17,
   "name": "AllTests",
   "testsuites": [
     {
@@ -15,7 +15,7 @@
     },
     {
       "name": "GildedRoseTest",
-      "tests": 12,
+      "tests": 16,
       "testsuite": [
         {
           "name": "Foo",
@@ -76,6 +76,26 @@
           "name": "NormalItemDegradesTwiceAfterSellIn",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
           "line": 126
+        },
+        {
+          "name": "QualityNeverNegative",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 137
+        },
+        {
+          "name": "AgedBrieIncreasesQuality",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 145
+        },
+        {
+          "name": "QualityNeverMoreThan50",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "SulfurasNeverChanges",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 161
         }
       ]
     }
