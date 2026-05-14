@@ -13,6 +13,12 @@ private:
   static constexpr int MAX_QUALITY = 50;
   static constexpr int MIN_QUALITY = 0;
 
+  void updateAgedBrie(Item &item);
+  void updateBackstagePass(Item &item);
+  void updateSulfuras(Item &item);
+  void updateNormalItem(Item &item);
+  void updateSellIn(Item &item);
+
 public:
   std::vector<Item> &items;
 

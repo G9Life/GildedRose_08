@@ -81,3 +81,5 @@ ctest --test-dir build
   - Step 2 : 코드정리(상수추출 + 변수 추출)
 
   - Step 3 : 조건분리(Condition Simplification)
+
+  - Step 4 : 메서드추출(Extract Method)
