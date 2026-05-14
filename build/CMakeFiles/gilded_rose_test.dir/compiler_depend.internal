@@ -24,12 +24,8 @@ CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
- C:/DEV/GildedRose_08/include/AgedBrieItem.h
- C:/DEV/GildedRose_08/include/BackstagePassItem.h
  C:/DEV/GildedRose_08/include/GildedRose.h
  C:/DEV/GildedRose_08/include/Item.h
- C:/DEV/GildedRose_08/include/NormalItem.h
- C:/DEV/GildedRose_08/include/SulfurasItem.h
  C:/mingw64/include/c++/15.2.0/any
  C:/mingw64/include/c++/15.2.0/array
  C:/mingw64/include/c++/15.2.0/atomic
@@ -284,12 +280,8 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-port.h
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-string.h
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/internal/gtest-type-util.h
- C:/DEV/GildedRose_08/include/AgedBrieItem.h
- C:/DEV/GildedRose_08/include/BackstagePassItem.h
  C:/DEV/GildedRose_08/include/GildedRose.h
  C:/DEV/GildedRose_08/include/Item.h
- C:/DEV/GildedRose_08/include/NormalItem.h
- C:/DEV/GildedRose_08/include/SulfurasItem.h
  C:/mingw64/include/c++/15.2.0/any
  C:/mingw64/include/c++/15.2.0/array
  C:/mingw64/include/c++/15.2.0/atomic

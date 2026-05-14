@@ -105,10 +105,6 @@ CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj: \
  C:/mingw64/include/c++/15.2.0/bits/stl_vector.h \
  C:/mingw64/include/c++/15.2.0/bits/stl_bvector.h \
  C:/mingw64/include/c++/15.2.0/bits/vector.tcc \
- C:/DEV/GildedRose_08/include/AgedBrieItem.h \
- C:/DEV/GildedRose_08/include/BackstagePassItem.h \
- C:/DEV/GildedRose_08/include/NormalItem.h \
- C:/DEV/GildedRose_08/include/SulfurasItem.h \
  C:/DEV/GildedRose_08/build/_deps/googletest-src/googletest/include/gtest/gtest.h \
  C:/mingw64/include/c++/15.2.0/cstdint \
  C:/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \

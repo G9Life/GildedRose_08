@@ -2,11 +2,6 @@
 #include "Item.h"
 #include <vector>
 
-#include "AgedBrieItem.h"
-#include "BackstagePassItem.h"
-#include "NormalItem.h"
-#include "SulfurasItem.h"
-
 class GildedRose {
 
 private:
@@ -15,13 +10,6 @@ private:
       "Backstage passes to a TAFKAL80ETC concert";
   static constexpr const char *SULFURAS = "Sulfuras, Hand of Ragnaros";
 
-  static constexpr int MAX_QUALITY = 50;
-  static constexpr int MIN_QUALITY = 0;
-
-  void updateAgedBrie(Item &item);
-  void updateBackstagePass(Item &item);
-  void updateSulfuras(Item &item);
-  void updateNormalItem(Item &item);
   void updateSellIn(Item &item);
 
 public:

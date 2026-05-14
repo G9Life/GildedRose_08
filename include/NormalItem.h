@@ -1,15 +1,12 @@
 #pragma once
 
-#include "Item.h"
+#include "GildedRoseItem.h"
 
-class NormalItem {
-private:
-  Item &item_;
-
+class NormalItem : public GildedRoseItem {
 public:
-  explicit NormalItem(Item &item) : item_(item) {}
+  using GildedRoseItem::GildedRoseItem;
 
-  void updateQuality() {
+  void updateQuality() override {
     static constexpr int MIN_QUALITY = 0;
 
     if (item_.quality > MIN_QUALITY) {

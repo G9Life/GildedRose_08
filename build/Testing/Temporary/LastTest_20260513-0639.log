@@ -1,10 +1,10 @@
-Start testing: May 14 16:56 대한민국 표준시
+Start testing: May 14 17:09 대한민국 표준시
 ----------------------------------------------------------
 17/17 Testing: GildedRoseTest.SulfurasNeverChanges
 17/17 Test: GildedRoseTest.SulfurasNeverChanges
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasNeverChanges" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasNeverChanges" start time: May 14 16:56 대한민국 표준시
+"GildedRoseTest.SulfurasNeverChanges" start time: May 14 17:09 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -20,11 +20,11 @@ Note: Google Test filter = GildedRoseTest.SulfurasNeverChanges
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.49 sec
+Test time =   0.48 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasNeverChanges" end time: May 14 16:56 대한민국 표준시
+"GildedRoseTest.SulfurasNeverChanges" end time: May 14 17:09 대한민국 표준시
 "GildedRoseTest.SulfurasNeverChanges" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 14 16:56 대한민국 표준시
+End testing: May 14 17:09 대한민국 표준시

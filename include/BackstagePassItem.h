@@ -1,15 +1,12 @@
 #pragma once
 
-#include "Item.h"
+#include "GildedRoseItem.h"
 
-class BackstagePassItem {
-private:
-  Item &item_;
-
+class BackstagePassItem : public GildedRoseItem {
 public:
-  explicit BackstagePassItem(Item &item) : item_(item) {}
+  using GildedRoseItem::GildedRoseItem;
 
-  void updateQuality() {
+  void updateQuality() override {
     static constexpr int MAX_QUALITY = 50;
     static constexpr int MIN_QUALITY = 0;
 

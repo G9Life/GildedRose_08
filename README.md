@@ -85,3 +85,5 @@ ctest --test-dir build
   - Step 4 : 메서드추출(Extract Method)
 
   - Step 5 : 클래스분리(Move Method + New Class)
+
+  - Step 6 : 추상화 & 다형성(Abstract Base Class + Factory)
