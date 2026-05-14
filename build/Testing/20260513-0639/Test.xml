@@ -25,8 +25,8 @@
 	ProcessorClockFrequency="2100.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 16:24 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778743450</StartTestTime>
+		<StartDateTime>May 14 16:36 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778744199</StartTestTime>
 		<TestList>
 			<Test>./GildedRoseTest.SulfurasNeverChanges</Test>
 		</TestList>
@@ -35,10 +35,10 @@
 			<Path>.</Path>
 			<FullName>./GildedRoseTest.SulfurasNeverChanges</FullName>
 			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.SulfurasNeverChanges" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778743450.527984</StartTestTime>
+			<StartTestTime>1778744199.094634</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.450466</Value>
+					<Value>0.473301</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -57,8 +57,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 14 16:24 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778743450</EndTestTime>
+		<EndDateTime>May 14 16:36 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778744199</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

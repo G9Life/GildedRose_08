@@ -79,3 +79,5 @@ ctest --test-dir build
    -. 회귀 테스트 추가 작성
 
   - Step 2 : 코드정리(상수추출 + 변수 추출)
+
+  - Step 3 : 조건분리(Condition Simplification)
