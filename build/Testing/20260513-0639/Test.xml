@@ -25,8 +25,8 @@
 	ProcessorClockFrequency="2100.000000"
 	>
 	<Testing>
-		<StartDateTime>May 14 17:22 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778746933</StartTestTime>
+		<StartDateTime>May 15 09:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1778806144</StartTestTime>
 		<TestList>
 			<Test>./GildedRoseTest.SulfurasNeverChanges</Test>
 		</TestList>
@@ -35,10 +35,10 @@
 			<Path>.</Path>
 			<FullName>./GildedRoseTest.SulfurasNeverChanges</FullName>
 			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.SulfurasNeverChanges" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778746933.338029</StartTestTime>
+			<StartTestTime>1778806144.662295</StartTestTime>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.506179</Value>
+					<Value>0.476787</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -53,12 +53,12 @@
 					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
 				</NamedMeasurement>
 				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNUMtugzAQvPsr9hgOWOktipRDlUQcIpEK2l4wQg4s1JKxIz/S3y+GKA2VKrGnHe94dnYyr5RQHfRcqFUErdE97LfscPxkiZANNpm2WK037OIHyKoGr5Z1WncSHVoXW1M/QTbC0FVBkNY1SbXDLSQjBd6HCbRCOjSwg98F4Z3mXrbecJviDc3+i6sOLSl2jyohu5t9ATcKBbP33nrhkJIiflQJidQXLqc5qpswWvWoBi662F//kJ8158ZIAdlHCmOVy0xPZDifln2A1Rp6Gy01NNHBacdlRJbd7JCbuNHfap7of0mC4YrO9wxHvb3m+fEQUpi4lPwAhyC81g==</Value>
+					<Value encoding="base64" compression="gzip">eJyNkEFrwzAMhe/+Fe/YHhLWa6GHsY0cBmlJtlPIwSNqZnCkYsvt32/asLIMBnknI3+Snl4pSlsUIr0nfFBUHJ1XCtihcL6jrpJIt3peJ39MwcaSzhRevi33FE2ze6hFlZgd99hA74OCDD/vmJxSbprsoRaFly/rp3/iswvCA/HIkmbp9Af+PXNuzDSoPkvc1S4zPcHYvy9rwOoJQ1wvNYTVZsShotavzbKblWzIOrnwPNH/kkSwnM/3jEcdnuv67fWWwsTm5gr7EJiN====</Value>
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>May 14 17:22 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778746933</EndTestTime>
+		<EndDateTime>May 15 09:49 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1778806145</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

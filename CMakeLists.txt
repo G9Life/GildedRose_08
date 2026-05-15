@@ -1,10 +1,13 @@
 cmake_minimum_required(VERSION 3.14)
+
 project(GildedRose)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include(FetchContent)
+
+# Google Test
 FetchContent_Declare(
     googletest
     GIT_REPOSITORY https://github.com/google/googletest.git
@@ -12,18 +15,72 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
+# ApprovalTests.cpp
+FetchContent_Declare(
+    ApprovalTests
+    GIT_REPOSITORY https://github.com/approvals/ApprovalTests.cpp.git
+    GIT_TAG v.10.13.0
+)
+FetchContent_MakeAvailable(ApprovalTests)
+
 # Library
-add_library(gilded_rose src/GildedRose.cpp)
-target_include_directories(gilded_rose PUBLIC include)
+add_library(gilded_rose
+    src/GildedRose.cpp
+)
+
+target_include_directories(gilded_rose
+    PUBLIC
+        include
+)
 
 # Tests
 enable_testing()
-add_executable(gilded_rose_test 
-                test/GildedRoseTest.cpp
-                 test/ApprovalTest.cpp
-                 test/FoodBeverageTest.cpp)
-                 
-target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
+
+add_executable(gilded_rose_test
+    test/GildedRoseTest.cpp
+    test/ApprovalTest.cpp
+    test/FoodBeverageTest.cpp
+)
+
+target_link_libraries(gilded_rose_test
+    PRIVATE
+        gilded_rose
+        GTest::gtest_main
+        ApprovalTests::ApprovalTests
+)
 
 include(GoogleTest)
 gtest_discover_tests(gilded_rose_test)
+
+
+
+
+# cmake_minimum_required(VERSION 3.14)
+# project(GildedRose)
+
+# set(CMAKE_CXX_STANDARD 17)
+# set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# include(FetchContent)
+# FetchContent_Declare(
+#     googletest
+#     GIT_REPOSITORY https://github.com/google/googletest.git
+#     GIT_TAG v1.14.0
+# )
+# FetchContent_MakeAvailable(googletest)
+
+# # Library
+# add_library(gilded_rose src/GildedRose.cpp)
+# target_include_directories(gilded_rose PUBLIC include)
+
+# # Tests
+# enable_testing()
+# add_executable(gilded_rose_test 
+#                 test/GildedRoseTest.cpp
+#                  test/ApprovalTest.cpp
+#                  test/FoodBeverageTest.cpp)
+                 
+# target_link_libraries(gilded_rose_test gilded_rose GTest::gtest_main)
+
+# include(GoogleTest)
+# gtest_discover_tests(gilded_rose_test)
