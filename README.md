@@ -90,3 +90,4 @@ ctest --test-dir build
 
   - Step 7 : 새기능추가: Food & Beverage (F & B) 아이템
    -. ApprovalTest 파일 반영
+   -. Reviewer 확인사항 코드 반영 

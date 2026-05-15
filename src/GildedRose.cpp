@@ -13,7 +13,7 @@
 // 품질을 업데이트하고
 // sellIn을 업데이트한다
 
-namespace {
+// namespace {
 constexpr const char *AGED_BRIE = "Aged Brie";
 constexpr const char *BACKSTAGE_PASS =
     "Backstage passes to a TAFKAL80ETC concert";
@@ -38,7 +38,7 @@ std::unique_ptr<GildedRoseItem> createItem(Item &item) {
 
   return std::make_unique<NormalItem>(item);
 }
-} // namespace
+//} // namespace
 
 GildedRose::GildedRose(std::vector<Item> &items) : items(items) {}
 
