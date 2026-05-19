@@ -25,40 +25,11 @@
 	ProcessorClockFrequency="2100.000000"
 	>
 	<Testing>
-		<StartDateTime>May 15 10:04 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
-		<StartTestTime>1778807078</StartTestTime>
-		<TestList>
-			<Test>./GildedRoseTest.SulfurasNeverChanges</Test>
-		</TestList>
-		<Test Status="passed">
-			<Name>GildedRoseTest.SulfurasNeverChanges</Name>
-			<Path>.</Path>
-			<FullName>./GildedRoseTest.SulfurasNeverChanges</FullName>
-			<FullCommandLine>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.SulfurasNeverChanges" "--gtest_also_run_disabled_tests"</FullCommandLine>
-			<StartTestTime>1778807078.969022</StartTestTime>
-			<Results>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.438161</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>C:\DEV\GildedRose_08\build\gilded_rose_test.exe "--gtest_filter=GildedRoseTest.SulfurasNeverChanges" "--gtest_also_run_disabled_tests"</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Environment">
-					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJyNkEFrwzAMhe/+Fe/YHhLWa6GHsY0cBmlJtlPIwSNqZnCkYsvt32/asLIMBnknI3+Snl4pSlsUIr0nfFBUHJ1XCtihcL6jrpJIt3peJ39MwcaSzhRevi33FE2ze6hFlZgd99hA74OCDD/vmJxSbprsoRaFly/rp3/iswvCA/HIkmbp9Af+PXNuzDSoPkvc1S4zPcHYvy9rwOoJQ1wvNYTVZsShotavzbKblWzIOrnwPNH/kkSwnM/3jEcdnuv67fWWwsTm5gr7EJiN====</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<EndDateTime>May 15 10:04 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
-		<EndTestTime>1778807079</EndTestTime>
+		<StartDateTime>May 18 13:02 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</StartDateTime>
+		<StartTestTime>1779076979</StartTestTime>
+		<TestList/>
+		<EndDateTime>May 18 13:03 [NON-UTF-8-BYTE-0xB4][NON-UTF-8-BYTE-0xEB][NON-UTF-8-BYTE-0xC7]ѹα[NON-UTF-8-BYTE-0xB9] ǥ[NON-UTF-8-BYTE-0xC1]ؽ[NON-UTF-8-BYTE-0xC3]</EndDateTime>
+		<EndTestTime>1779076980</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>

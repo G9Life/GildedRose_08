@@ -47,7 +47,7 @@ protected:
 };
 
 TEST_F(ApprovalTest, PrintTextFixture) {
-  std::string actual = printTextFixture(2);
+  std::string actual = printTextFixture(29);
 
   ApprovalTests::Approvals::verify(actual);
 }

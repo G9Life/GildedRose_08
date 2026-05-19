@@ -8,7 +8,7 @@ GildedRoseTest.QualityNeverExceedsFifty 14 0.503895
 GildedRoseTest.BackstagePassIncreasesByOneAboveTenDays 14 0.497138
 GildedRoseTest.BackstagePassDropsToZeroAfterConcertFromAboveFifty 14 0.499681
 GildedRoseTest.BackstagePassDropsToZeroAfterConcert 14 0.522043
-ApprovalTest.PrintTextFixture 13 1.90285
+ApprovalTest.PrintTextFixture 14 1.79955
 GildedRoseTest.NormalItemDegrades 13 0.486171
 GildedRoseTest.NormalItemDegradesTwiceAfterSellIn 13 0.499399
 GildedRoseTest.QualityNeverNegative 12 0.469783
