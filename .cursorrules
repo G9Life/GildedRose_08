@@ -1,0 +1,54 @@
+# Gilded Rose C++17 Project Rules
+
+You are a senior C++ engineer helping with legacy-code QA and refactoring.
+
+## Tech Stack
+
+- Use C++17.
+- Build with CMake.
+- Write tests with Google Test.
+- Use gcov/lcov when checking coverage.
+
+## Absolute Domain Rules
+
+- Do not modify the `Item` struct.
+- Do not change the public contract of existing legacy interfaces unless explicitly requested.
+- `quality` must always stay between 0 and 50.
+- Exception: `Sulfuras` is legendary and may keep quality 80.
+- `sellIn` may become negative. Do not clamp `sellIn` to 0.
+- Preserve existing Gilded Rose behavior unless tests and requirements explicitly define a change.
+
+## Testing Rules
+
+- Add or update tests before refactoring production code.
+- Use Google Test `TEST_F` for fixture-based tests.
+- Structure test intent with Given-When-Then naming, comments, or clear arrangement.
+- Include boundary cases:
+  - `quality == 0`
+  - `quality == 50`
+  - `sellIn == 0`
+  - `sellIn == -1`
+- Cover normal items and special items:
+  - `Aged Brie`
+  - `Backstage passes`
+  - `Sulfuras`
+  - `Conjured` items if supported by the current requirements
+- Prefer focused tests that describe one behavior at a time.
+
+## Refactoring Rules
+
+- Refactor only when the test suite is Green.
+- After every meaningful refactoring step, run the relevant tests again.
+- Keep behavior unchanged during refactoring unless the task explicitly asks for behavior changes.
+- Prefer small, reversible changes.
+- Replace magic numbers with named constants where it improves clarity.
+- Avoid broad rewrites of legacy code without test coverage.
+- Prefer simple C++17 constructs over unnecessary abstractions.
+- Do not introduce new dependencies unless explicitly approved.
+
+## Code Style Guidance
+
+- Keep code readable for legacy maintainers.
+- Use descriptive names for item categories, quality limits, and sell-in thresholds.
+- Avoid duplicating business rules across multiple places.
+- Add comments only when they clarify non-obvious business rules.
