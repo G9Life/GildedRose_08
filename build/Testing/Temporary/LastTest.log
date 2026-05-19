@@ -1,10 +1,10 @@
-Start testing: May 19 10:21 대한민국 표준시
+Start testing: May 19 10:26 대한민국 표준시
 ----------------------------------------------------------
 1/26 Testing: GildedRoseTest.NormalItemDegradesByOneBeforeSellDate
 1/26 Test: GildedRoseTest.NormalItemDegradesByOneBeforeSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -20,10 +20,10 @@ Note: Google Test filter = GildedRoseTest.NormalItemDegradesByOneBeforeSellDate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.51 sec
+Test time =   0.49 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.NormalItemDegradesByOneBeforeSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -31,7 +31,7 @@ Test Passed.
 2/26 Test: GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -47,10 +47,10 @@ Note: Google Test filter = GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZer
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.48 sec
+Test time =   0.60 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.NormalItemDegradesTwiceWhenSellInIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -58,7 +58,7 @@ Test Passed.
 3/26 Test: GildedRoseTest.NormalItemDegradesTwiceAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -74,10 +74,10 @@ Note: Google Test filter = GildedRoseTest.NormalItemDegradesTwiceAfterSellDate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.57 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.NormalItemDegradesTwiceAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -85,7 +85,7 @@ Test Passed.
 4/26 Test: GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -101,10 +101,10 @@ Note: Google Test filter = GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAt
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.63 sec
+Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.NormalItemQualityNeverDropsBelowZeroAtBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -112,7 +112,7 @@ Test Passed.
 5/26 Test: GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -128,10 +128,10 @@ Note: Google Test filter = GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellD
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.60 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.NormalItemQualityStopsAtZeroAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -139,7 +139,7 @@ Test Passed.
 6/26 Test: GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -155,10 +155,10 @@ Note: Google Test filter = GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.65 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.AgedBrieIncreasesByOneBeforeSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -166,7 +166,7 @@ Test Passed.
 7/26 Test: GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -182,10 +182,10 @@ Note: Google Test filter = GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.63 sec
+Test time =   0.52 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.AgedBrieIncreasesTwiceWhenSellInIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -193,7 +193,7 @@ Test Passed.
 8/26 Test: GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -209,10 +209,10 @@ Note: Google Test filter = GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.55 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.AgedBrieIncreasesTwiceAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -220,7 +220,7 @@ Test Passed.
 9/26 Test: GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -236,10 +236,10 @@ Note: Google Test filter = GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBou
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.52 sec
+Test time =   0.62 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.AgedBrieQualityDoesNotExceedFiftyAtBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +247,7 @@ Test Passed.
 10/26 Test: GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -263,10 +263,10 @@ Note: Google Test filter = GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDat
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.58 sec
+Test time =   0.67 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.AgedBrieQualityCapsAtFiftyAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -274,7 +274,7 @@ Test Passed.
 11/26 Test: GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -290,10 +290,10 @@ Note: Google Test filter = GildedRoseTest.BackstagePassIncreasesByOneMoreThanTen
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.65 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassIncreasesByOneMoreThanTenDaysOut" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -301,7 +301,7 @@ Test Passed.
 12/26 Test: GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -317,10 +317,10 @@ Note: Google Test filter = GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.67 sec
+Test time =   0.50 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassIncreasesByTwoAtTenDays" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -328,7 +328,7 @@ Test Passed.
 13/26 Test: GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -344,10 +344,10 @@ Note: Google Test filter = GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDay
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.55 sec
+Test time =   0.48 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassIncreasesByThreeAtFiveDays" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -355,7 +355,7 @@ Test Passed.
 14/26 Test: GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -371,10 +371,10 @@ Note: Google Test filter = GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZe
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.55 sec
+Test time =   0.48 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassDropsToZeroWhenSellInIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -382,7 +382,7 @@ Test Passed.
 15/26 Test: GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -398,10 +398,10 @@ Note: Google Test filter = GildedRoseTest.BackstagePassQualityDoesNotExceedFifty
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.51 sec
+Test time =   0.50 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassQualityDoesNotExceedFiftyAtBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -409,7 +409,7 @@ Test Passed.
 16/26 Test: GildedRoseTest.BackstagePassRemainsZeroAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -428,7 +428,7 @@ Note: Google Test filter = GildedRoseTest.BackstagePassRemainsZeroAfterSellDate
 Test time =   0.50 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.BackstagePassRemainsZeroAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -436,7 +436,7 @@ Test Passed.
 17/26 Test: GildedRoseTest.SulfurasSellInDoesNotChange
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasSellInDoesNotChange" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasSellInDoesNotChange" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasSellInDoesNotChange" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -452,10 +452,10 @@ Note: Google Test filter = GildedRoseTest.SulfurasSellInDoesNotChange
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.50 sec
+Test time =   0.49 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasSellInDoesNotChange" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasSellInDoesNotChange" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.SulfurasSellInDoesNotChange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -463,7 +463,7 @@ Test Passed.
 18/26 Test: GildedRoseTest.SulfurasQualityDoesNotChange
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasQualityDoesNotChange" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasQualityDoesNotChange" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasQualityDoesNotChange" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -479,10 +479,10 @@ Note: Google Test filter = GildedRoseTest.SulfurasQualityDoesNotChange
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.51 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasQualityDoesNotChange" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasQualityDoesNotChange" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.SulfurasQualityDoesNotChange" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -490,7 +490,7 @@ Test Passed.
 19/26 Test: GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -506,10 +506,10 @@ Note: Google Test filter = GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximu
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.57 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.SulfurasAllowsQualityAboveNormalMaximum" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -517,7 +517,7 @@ Test Passed.
 20/26 Test: GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -533,10 +533,10 @@ Note: Google Test filter = GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.62 sec
+Test time =   0.56 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.SulfurasDoesNotChangeWhenSellInIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -544,7 +544,7 @@ Test Passed.
 21/26 Test: GildedRoseTest.SulfurasDoesNotChangeAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -560,10 +560,10 @@ Note: Google Test filter = GildedRoseTest.SulfurasDoesNotChangeAfterSellDate
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.60 sec
+Test time =   0.59 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.SulfurasDoesNotChangeAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -571,7 +571,7 @@ Test Passed.
 22/26 Test: GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -587,10 +587,10 @@ Note: Google Test filter = GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDat
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.74 sec
+Test time =   0.58 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.ConjuredItemDegradesByTwoBeforeSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -598,7 +598,7 @@ Test Passed.
 23/26 Test: GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -614,10 +614,10 @@ Note: Google Test filter = GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIs
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.72 sec
+Test time =   0.55 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.ConjuredItemDegradesByFourWhenSellInIsZero" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -625,7 +625,7 @@ Test Passed.
 24/26 Test: GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -641,10 +641,10 @@ Note: Google Test filter = GildedRoseTest.ConjuredItemDegradesByFourAfterSellDat
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.68 sec
+Test time =   0.54 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.ConjuredItemDegradesByFourAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -652,7 +652,7 @@ Test Passed.
 25/26 Test: GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -668,10 +668,10 @@ Note: Google Test filter = GildedRoseTest.ConjuredItemQualityNeverDropsBelowZero
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.62 sec
+Test time =   0.50 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.ConjuredItemQualityNeverDropsBelowZeroAtBoundary" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -679,7 +679,7 @@ Test Passed.
 26/26 Test: GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate
 Command: "C:/DEV/GildedRose_08/build/gilded_rose_test.exe" "--gtest_filter=GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" "--gtest_also_run_disabled_tests"
 Directory: C:/DEV/GildedRose_08/build
-"GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" start time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" start time: May 19 10:26 대한민국 표준시
 Output:
 ----------------------------------------------------------
 Running main() from C:\DEV\GildedRose_08\build\_deps\googletest-src\googletest\src\gtest_main.cc
@@ -695,11 +695,11 @@ Note: Google Test filter = GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSel
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 <end of output>
-Test time =   0.57 sec
+Test time =   0.49 sec
 ----------------------------------------------------------
 Test Passed.
-"GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" end time: May 19 10:21 대한민국 표준시
+"GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" end time: May 19 10:26 대한민국 표준시
 "GildedRoseTest.ConjuredItemQualityStopsAtZeroAfterSellDate" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: May 19 10:21 대한민국 표준시
+End testing: May 19 10:26 대한민국 표준시
