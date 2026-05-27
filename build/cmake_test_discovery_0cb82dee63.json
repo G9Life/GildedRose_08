@@ -1,7 +1,28 @@
 {
-  "tests": 11,
+  "tests": 20,
   "name": "AllTests",
   "testsuites": [
+    {
+      "name": "FoodBeverageTest",
+      "tests": 3,
+      "testsuite": [
+        {
+          "name": "DegradesTwiceAsNormal",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 7
+        },
+        {
+          "name": "DegradesFourTimesAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 17
+        },
+        {
+          "name": "QualityNeverBelowZero",
+          "file": "C:\\DEV\\GildedRose_08\\test\\FoodBeverageTest.cpp",
+          "line": 27
+        }
+      ]
+    },
     {
       "name": "ApprovalTest",
       "tests": 1,
@@ -9,13 +30,13 @@
         {
           "name": "PrintTextFixture",
           "file": "C:\\DEV\\GildedRose_08\\test\\ApprovalTest.cpp",
-          "line": 60
+          "line": 49
         }
       ]
     },
     {
       "name": "GildedRoseTest",
-      "tests": 10,
+      "tests": 16,
       "testsuite": [
         {
           "name": "Foo",
@@ -66,6 +87,36 @@
           "name": "BackstagePassDropsToZeroAfterConcertFromAboveFifty",
           "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
           "line": 102
+        },
+        {
+          "name": "NormalItemDegrades",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 115
+        },
+        {
+          "name": "NormalItemDegradesTwiceAfterSellIn",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 126
+        },
+        {
+          "name": "QualityNeverNegative",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 137
+        },
+        {
+          "name": "AgedBrieIncreasesQuality",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 145
+        },
+        {
+          "name": "QualityNeverMoreThan50",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 153
+        },
+        {
+          "name": "SulfurasNeverChanges",
+          "file": "C:\\DEV\\GildedRose_08\\test\\GildedRoseTest.cpp",
+          "line": 161
         }
       ]
     }

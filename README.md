@@ -73,3 +73,21 @@ ctest --test-dir build
 
  - 7번째 커밋
   -. ApprovalTest 제출
+
+  ////Refactoring Branch 작업내용
+  - Step 1 : 회귀 테스트 작성
+   -. 회귀 테스트 추가 작성
+
+  - Step 2 : 코드정리(상수추출 + 변수 추출)
+
+  - Step 3 : 조건분리(Condition Simplification)
+
+  - Step 4 : 메서드추출(Extract Method)
+
+  - Step 5 : 클래스분리(Move Method + New Class)
+
+  - Step 6 : 추상화 & 다형성(Abstract Base Class + Factory)
+
+  - Step 7 : 새기능추가: Food & Beverage (F & B) 아이템
+   -. ApprovalTest 파일 반영
+   -. Reviewer 확인사항 코드 반영 

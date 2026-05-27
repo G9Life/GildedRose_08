@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj"
   "CMakeFiles/gilded_rose_test.dir/test/ApprovalTest.cpp.obj.d"
+  "CMakeFiles/gilded_rose_test.dir/test/FoodBeverageTest.cpp.obj"
+  "CMakeFiles/gilded_rose_test.dir/test/FoodBeverageTest.cpp.obj.d"
   "CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj"
   "CMakeFiles/gilded_rose_test.dir/test/GildedRoseTest.cpp.obj.d"
   "gilded_rose_test.exe"
